@@ -1,0 +1,12 @@
+.img-container {
+    background-image: url("../CP201-2TE_kr/images/blue-png-15.png");
+
+    height: 150%;
+    width: 900%;
+    background-position: center;
+    background-repeat:repeat;  
+    background-size: cover; /*  <-- or contain or cover but must position height/width */
+    position: relative;   /*used relative; played with absolute, fixed didn't work */
+    /* max-width: 900px; */
+    overflow: hidden; 
+}
